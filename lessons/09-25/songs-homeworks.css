@@ -14,23 +14,20 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
-    /* 3: align the main title to the center */
-}
-
 ul {
     list-style: none;
     padding: 0;
-    /* 4: center the list related to the page */
+    /* 3: make sure it has a fixed width */
 }
 
 li {
+    border: 1px solid #4c4949;
     text-align: center;
     margin-top: 100px;
 }
 
 img {
-    border: 1px solid #4c4949;
+    /* 4: insert a border on the image */
 }
 
 p {
