@@ -21,18 +21,24 @@ ul {
 }
 
 li {
-    border: 1px solid #4c4949;
+    border-width: 2px;
+
+    /* 4: try a different border style */
+
+    border-style: solid;
+    /* 5: update the border color */
+	border-color: #4c4949;
     text-align: center;
     margin-top: 100px;
 }
 
 img {
-    /* 4: insert a border on the image */
+    /* 6: insert a border on the image */
 }
 
 p {
     font-style: italic;
 }
 
-/* 5: make sure the text with the link has the same color as the other text */
-/* 6 (optional): change the color of the text in the link when you pass the mouse on it */
+/* 7: make sure the text with the link has the same color as the other text */
+/* 8 (optional): change the color of the text in the link when you pass the mouse on it */

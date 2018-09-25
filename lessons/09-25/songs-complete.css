@@ -1,27 +1,29 @@
 body {
-    color: #4c4949;
-    font-family: Helvetica;
+	color: #4c4949;
+	font-family: Helvetica;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    width: 400px;
+	list-style: none;
+	padding: 0;
+	width: 400px;
 }
 
 li {
-    border: 1px solid #4c4949;
-    text-align: center;
-    margin-top: 100px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #4c4949;
+	text-align: center;
+	margin-top: 100px;
 }
 
 p {
-    font-style: italic;
+	font-style: italic;
 }
 
 a,
 a:link,
 a:active,
 a:visited {
-    color: #4c4949;
+	color: #4c4949;
 }
