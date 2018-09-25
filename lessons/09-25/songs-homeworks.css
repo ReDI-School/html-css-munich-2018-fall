@@ -1,0 +1,41 @@
+/* Homeworks :) */
+
+/* First, try them out on yuor own. */
+/* If you don't remember how to do one of those, */
+/* try to look at the complete file or search on stackoverflow */
+
+/* But remember: always type, never copy / paste ;) */
+
+body {
+    /* 1: change the color for all the text in the page */
+    color: #000;
+
+    /* 2: change the font family for all the text in the page */
+    font-family: sans-serif;
+}
+
+h1 {
+    /* 3: align the main title to the center */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    /* 4: center the list related to the page */
+}
+
+li {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    border: 1px solid #4c4949;
+}
+
+p {
+    font-style: italic;
+}
+
+/* 5: make sure the text with the link has the same color as the other text */
+/* 6 (optional): change the color of the text in the link when you pass the mouse on it */
