@@ -1,0 +1,19 @@
+li {
+    border: 1px solid black;
+    text-align: center;
+}
+
+ul {
+    /* I hate bullet points */
+    list-style: none;
+
+    width: 400px;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    font-style: italic;
+}
