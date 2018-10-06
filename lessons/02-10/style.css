@@ -1,0 +1,56 @@
+li {
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+
+}
+
+li:hover {
+    background-color: green;
+    transition: background-color 1s;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+}
+
+img {
+    width: 200px;
+}
+
+p {
+    font-style: italic;
+}
+
+#special-sale-tag {
+    background-color: blue;
+}
+
+li div {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#half {
+    font-size: 0;
+}
+
+#half div {
+    background: yellow;
+    width: 50%;
+    display: inline-block;
+    font-size: 15px;
+}
