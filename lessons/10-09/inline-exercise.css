@@ -1,0 +1,17 @@
+div {
+    width: 12.5%;
+    height: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+span {
+    font-size: 0;
+}
