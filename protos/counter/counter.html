@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My Beautiful Counter</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="counter.css" />
+</head>
+<body>
+    <main class="counter__container">
+        <section class="counter">
+            <p class="counter__count js-counter__count">
+                8
+            </p>
+            <ul class="counter__actions js-counter__actions">
+                <li class="counter__action counter__action-more">
+                    <a class="js-counter__action js-counter__action-more" href="#">+</a>
+                </li>
+                <li class="counter__action counter__action-less counter__action--disabled">
+                    <a class="js-counter__action js-counter__action-less" href="#">-</a>
+                </li>
+                <li class="counter__action counter__action-reset counter__action--disabled">
+                    <a class="js-counter__action js-counter__action-reset" href="#">reset</a>
+                </li>
+            </ul>
+    </section>
+    </main>
+    <script src="lib.js"></script>
+    <script src="counter.js"></script>
+</body>
+</html>
