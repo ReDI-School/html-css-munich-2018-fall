@@ -31,7 +31,6 @@
 
 .slide__check {
     display: none;
-    cursor: pointer;
 }
 
 .slide__check:checked ~ .slide__img {
@@ -42,6 +41,7 @@
 .slide__nav {
 	background: white;
     border-radius: 100%;
+    cursor: pointer;
     height: 60px;
     line-height: 60px;
     margin-top: -30px;
@@ -61,10 +61,12 @@
 
 .slide__nav--next,
 .slide__nav--prev {
-    display: none
+    opacity: .3;
+    pointer-events: none;
 }
 
 .slide__check:checked ~ .slide__nav--next,
 .slide__check:checked ~ .slide__nav--prev {
-    display: block
+    opacity: 1;
+    pointer-events: initial;
 }
