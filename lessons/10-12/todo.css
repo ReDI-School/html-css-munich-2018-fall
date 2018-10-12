@@ -1,0 +1,52 @@
+body {
+    background-color: lightcyan;
+}
+
+.container {
+    background-color: white;
+    /* R, red; G, green; B, blue; A, alpha = transparent */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.date {
+    background-color: white;
+    /* transparency can also be without 0 */
+    box-shadow: 0 0 30px rgba(0, 0, 0, .4);
+    margin-left: 20px;
+    padding: 10px;
+    width: 400px;
+}
+
+.todos {
+    padding-top: 30px;
+}
+
+.todo {
+    padding: 20px;
+}
+
+.circle {
+    border: 3px solid rgba(0, 188, 212, .9);
+    border-radius: 100%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.name {
+    display: inline;
+}
+
+.check {
+    display: none;    
+}
+
+.check:checked ~ .name {
+    /* transparent */
+    opacity: .3;
+    text-decoration: line-through;
+}
