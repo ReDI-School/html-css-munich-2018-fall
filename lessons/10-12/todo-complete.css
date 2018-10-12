@@ -1,43 +1,40 @@
-body {
+.container {
 	background: linear-gradient(to bottom, rgba(0, 188, 212, .5), rgba(0, 188, 212, .8));
 	background-repeat: no-repeat;
 	color: #4c7177;
 	font-family: sans-serif;
-    font-size: 20px;
-    overflow: auto;
-	height: 100vh;
-}
-
-.block {
-	background: white;
-	box-shadow: 0px 3px 30px rgba(100, 100, 100, .4);
-	padding: 30px 20px 25px;
+	font-size: 20px;
+	overflow: auto;
+	min-height: 100vh;
 }
 
 .main__title {
-	margin: 80px auto 6px;
+	color: #8a3c92;
+	margin: 0 auto 6px;
 	text-align: center;
-	width: 300px;
 }
 
 .todos {
-	margin: 0 auto;
+	margin: 80px auto 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 300px;
+}
+
+.todos:last-child {
+	margin-bottom: 80px;
 }
 
 .todo__check {
 	display: none;
 }
 
-.todo__check:checked ~ .todo__icon {
-	border-color: #4c7177;
+.todo__check:checked ~ .todo__title {
+	text-decoration: line-through;
 	opacity: .4;
 }
 
-.todo__check:checked ~ .todo__title {
-	text-decoration: line-through;
+.todo__check:checked ~ .todo__title .todo__icon {
+	border-color: #4c7177;
 	opacity: .4;
 }
 
@@ -52,7 +49,7 @@ body {
 }
 
 .todo__item {
-    border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
 
 .todo__item:hover .todo__icon {
@@ -67,10 +64,23 @@ body {
 	cursor: pointer;
 	display: inline-block;
 	padding: 24px 20px 23px 0;
-    user-select: none;
-    width: 245px;
+	user-select: none;
+	width: 300px;
 }
 
-.todo__check:checked ~ .todo__icon {
-    background: #4c7177;
+.todo__check:checked ~ .todo__title .todo__icon {
+	background: #4c7177;
+}
+
+.block {
+	background: white;
+	box-shadow: 0px 3px 30px rgba(100, 100, 100, .4);
+	padding: 30px 20px 25px;
+	width: 320px;
+}
+
+.in-row {
+	display: inline-block;
+	margin-right: 80px;
+	margin-left: 80px;
 }
