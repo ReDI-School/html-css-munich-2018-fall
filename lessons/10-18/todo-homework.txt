@@ -1,0 +1,108 @@
+/************Homework Time****************
+
+Please create a new css file with the name: todo-homework.css
+Copy this text into todo-homework.css and continue with the exercises.
+Link the css file to the html file.
+(Got Stuck? Google "how to link css to html" )
+Please solve the following tasks and create the right css inside the todo-homework.css:
+
+Use the new css selectors you've learnt!
+( a > b, a b, a:last-child.... and so on. You can find them on the slides or google them. ) */
+
+
+/* 1) Delete the comments around the images and set the image height with "height: 120px;"" inside css for both images.*/
+
+
+
+
+
+
+/* 2) Change the background color of _every single_ html element - but with only one css selector! to a light color that you like*/
+
+
+
+
+
+
+
+/* 3) Change the font-family of all used headings to "courier" or any other font you like */
+
+
+
+
+
+
+
+/* 4) Make all the last Puppy & Kitten Names in hotpink. Use the selector which defines the last child of an element. */
+
+
+
+
+
+
+
+/* 5) Set a general font size for the document*/
+
+
+
+
+
+
+
+/* 6) The kittens name font size should be as double as big as the other text (excluding headings). There is a way to do it without px!*/
+
+
+
+
+
+
+
+
+/*7) All uls which are inside the dog div should be in capital letters  */
+
+
+
+
+
+
+
+/*8) Only the paragraph after the div should be underlined*/
+
+
+
+
+
+
+
+/*9) The paragraphs which comes right after the div should be in font color red. */
+
+
+
+
+
+
+/*10) Only the paragraph which comes right direct after the div should be in font "fantasy". */
+
+
+
+
+
+
+/*11) The second list items in both lists should not be seen anymore */
+
+
+
+
+
+
+/*12) Hovering over the "Anyway :)" should make the background dark and the font color in light color like white or something similar */
+
+
+
+
+
+
+
+
+
+
