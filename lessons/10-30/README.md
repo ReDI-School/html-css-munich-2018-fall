@@ -4,6 +4,8 @@ ReDI School
 
 ## Class - Introduction to final project
 
+### Simulation of a front-end programmer's task
+
 Today each teacher is going to show in detail how they work.
 Let's pretend we got this website layout (how many people are at space right now) from a client/boss and we should develop it in HTML and CSS.
 
