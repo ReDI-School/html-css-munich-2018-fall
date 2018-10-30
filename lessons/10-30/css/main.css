@@ -1,0 +1,14 @@
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+#earth {
+    background-image: url(../img/earth.jpg);
+}
+
+#big_number {
+    color: white;
+    font-size: 600px;
+    text-align: center;
+    text-shadow: 0 0 60px #262c3c;
+}
