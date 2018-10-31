@@ -1,5 +1,14 @@
+#mfPreviewBar {
+    display: none;
+}
+
 body {
-    font-family: 'Signika', sans-serif;
+    /* font-family: 'Signika', sans-serif; */
+    /* font-family: 'FF Enzo Std Thin'; */
+    /* font-family: 'FF Enzo Pro Bold'; */
+    
+    font-family: 'FF Enzo Pro Light';
+    /* font-family: 'FF Enzo Pro Medium';*/
 }
 
 #earth {
