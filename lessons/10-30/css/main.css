@@ -11,8 +11,13 @@ body {
     /* font-family: 'FF Enzo Pro Medium';*/
 }
 
+/* earth section */
 #earth {
     background-image: url(../img/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #efefef; 
+    position: relative;
 }
 
 #big_number {
@@ -20,4 +25,51 @@ body {
     font-size: 600px;
     text-align: center;
     text-shadow: 0 0 60px #262c3c;
+    position: relative;
+}
+
+.download_link {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 1px solid white;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 300ms;
+}
+
+.download_link:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+.texture {
+    background-image: url(../img/pattern.png);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .3;
+}
+
+/* names section */
+.inner-container {
+    width: 700px;
+    background: red;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list-names {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.astronaut-name {
+    font-size: 40px;
+    margin: 0;
 }
