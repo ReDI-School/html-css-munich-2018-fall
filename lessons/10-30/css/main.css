@@ -58,18 +58,67 @@ body {
 /* names section */
 .inner-container {
     width: 700px;
-    background: red;
     margin-right: auto;
     margin-left: auto;
 }
 
 .list-names {
-    margin: 0;
+    margin: 200px 0;
     padding: 0;
     list-style: none;
 }
 
+.list-names li {
+    border: 1px dashed #b3b3b3;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 72px 0;
+}
+
+.list-names li:last-child {
+    border-bottom: 0;
+}
+
 .astronaut-name {
     font-size: 40px;
+    margin: 0 0 12px 0;
+}
+
+.link-astronaut {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.sub-group {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.profile {
     margin: 0;
+}
+
+.days, .label-days {
+    text-align: right;
+    margin: 0;
+}
+
+.days {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.label-days {
+    text-transform: uppercase;
+}
+
+.group {
+    width: 100%;
 }
