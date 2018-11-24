@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    overflow: auto;
+}
+
+.mickey {
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 250px auto;
+    border-radius: 100%;
+    position: relative;
+}
+
+.mickey:hover::before,
+.mickey:hover::after {
+    transform: translateY(10px);
+}
+
+/* pseudo-selectors */
+.mickey::before,
+.mickey::after {
+    border-radius: inherit;
+    background: black;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    top: -75px;
+    left: -55px;
+    transform: translateY(0);
+    transition: transform 300ms;
+}
+
+.mickey::after {
+    left: 115px;
+}
